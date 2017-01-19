@@ -29,7 +29,6 @@ Let's run it. Open up the **Terminal** app on MacOS or **cmd.exe** on Windows to
 Next you'll have to change the working directory to the one where your project files are. In the example below I used the commands:
 
 ```
-cd Desktop
 cd Lighthouse\ Labs
 ```
 
@@ -41,7 +40,9 @@ node server.js
 
 The output should look like this.
 
-![Terminal test](/assets/terminal-test.png)
+```
+hello from our node script!
+```
 
 And there's our message, nice!
 

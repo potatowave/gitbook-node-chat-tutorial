@@ -38,7 +38,7 @@ And that's it &mdash; you just built a Web page!
 
 Let's build out the "markup" (structure) of our web page so it looks more like our goal, which is something like this.
 
-![TODO]()
+![example](/assets/example.png)
 
 Here's a description of the what it contains.
 

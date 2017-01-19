@@ -1,12 +1,14 @@
+![Logo](/assets/lhl-logo.png)
+
 # Introduction
 
-Hello and thank you for joining us for this intro to Web development with JavaScript workshop.
+Hello and thank you for joining us for this JavaScript Essentials Workshop.
 
-My name is David VanDusen, Web bootcamp instructor at Lighthouse Labs, and your instructor today.
+My name is Juan Gonzalez and I am your Lighthouse Labs instructor today.
 
-My background is in software development, focusing on Web technologies. I started programming at a young age and built websites during some of the most exciting times in the technologies' histories.
+My background is in software development, focusing on Web technologies. I started programming at a young age, selling my first piece of code at age 16 and eventually building very large web systems for large companies.  
 
-That said, I started out in fine arts and music and have played everything from piano in a jazz big band to singing in a thrash metal band. Programmers are all sorts of people.
+For the past 10 years I have also been involved in some very interesting startups.
 
 ## Pair programming
 
