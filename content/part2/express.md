@@ -8,7 +8,13 @@ While Node comes with basic HTTP handling support, a very (probably the most) po
 
 ## Step 1
 
-Let's install and save the Express library into our project by running this command from the command line that we have open.
+Let's make sure our folder is ready to work with other libraries.  We do this by initializing our folder:
+
+```
+npm init -y
+```
+
+Once this command runs, you will simple notice a new file `package.json` in your folder.  Let's install and save the Express library into our project by running this command from the command line that we have open.
 
 ```
 npm install express
