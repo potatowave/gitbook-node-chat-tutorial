@@ -84,16 +84,17 @@ The `app.js` file should look like this.
 ```javascript
 var socket = io();
 
-$('form').submit(function () {
-  var text = $('#m').val();
+$('form').on('submit',function () {
+  var text = $('#message').val();
+
   socket.emit('message', text);
-  $('#m').val('');
+  $('#message').val('');
+    
   return false;
 });
 
 socket.on('message', function (msg) {
-  var incomingMessage = $('<li>').text(msg);
-  $('#messages').append(incomingMessage);
+  $('<li>').text(msg).appendTo('#history');
 });
 ```
 
@@ -112,13 +113,17 @@ app.use(express.static('client'));
 
 var io = require('socket.io')(server);
 
+var database = [];
+
 io.on('connection', function (socket) {
   socket.on('message', function (msg) {
+    database.push(msg);
     io.emit('message', msg);
+    console.log(database);
   });
 });
 
-server.listen(process.env.PORT, process.env.IP, function () {
+server.listen(8080, 'localhost', function () {
   var addr = server.address();
   console.log("Chat server running at", addr.address + ":" + addr.port);
 });
