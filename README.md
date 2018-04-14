@@ -4,11 +4,9 @@
 
 Hello and thank you for joining us for this JavaScript Essentials Workshop.
 
-My name is Juan Gonzalez and I am your Lighthouse Labs instructor today.
+My name is Mike Jenkins and I am your Lighthouse Labs instructor today.
 
-My background is in software development, focusing on Web technologies. I started programming at a young age, selling my first piece of code at age 16 and eventually building very large web systems for large companies.  
-
-For the past 10 years I have also been involved in some very interesting startups.
+I started coding for fun mainly with an electronics focus but have worked as a web developer since graduating Lighthouse Labs in December 2016.
 
 ## The goal
 
